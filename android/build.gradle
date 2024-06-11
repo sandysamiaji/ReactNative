@@ -1,0 +1,201 @@
+//buildscript {
+//    ext {
+//        buildToolsVersion = "34.0.0"
+//        minSdkVersion = 23
+//        compileSdkVersion = 34
+//        targetSdkVersion = 34
+//        ndkVersion = "26.1.10909125"
+//        kotlinVersion = "1.9.22"
+//    }
+//    repositories {
+//        google()
+//        mavenCentral()
+//    }
+//    dependencies {
+//        classpath("com.android.tools.build:gradle")
+//        classpath("com.facebook.react:react-native-gradle-plugin")
+//        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin")
+//    }
+//}
+//
+//allprojects {
+//    repositories {
+//        // ...
+//        maven {
+//            url 'https://api.mapbox.com/downloads/v2/releases/maven'
+//            authentication {
+//                basic(BasicAuthentication)
+//            }
+//            credentials {
+//                username = 'mapbox'
+//                password = 'sk.eyJ1IjoidmR5YW5oIiwiYSI6ImNseDBibXUzZzBld2oycXNmNG1wN2txb2sifQ.IPVvVMOPazkFVY0y90BMJw'
+//            }
+//        }
+//    }
+//}
+//
+//apply plugin: "com.facebook.react.rootproject"
+////
+//////buildscript {
+//////    ext {
+//////        buildToolsVersion = "34.0.0"
+//////        minSdkVersion = 23
+//////        compileSdkVersion = 34
+//////        targetSdkVersion = 34
+//////        ndkVersion = "26.1.10909125"
+//////        kotlinVersion = "1.9.22"
+//////    }
+//////    repositories {
+//////        google()
+//////        mavenCentral()
+//////        maven {
+//////            url 'https://api.mapbox.com/downloads/v2/releases/maven'
+//////            credentials {
+//////                username = "sandysamiaji"
+//////                password = "sk.eyJ1Ijoic2FuZHlzYW1pYWppIiwiYSI6ImNseDA4Z3lvdjA2NjEyanM3ZGlmNTl4MnEifQ.b2sccuZUuybmcAyuIB7qdg"
+//////            }
+//////        }
+//////    }
+//////    dependencies {
+//////        classpath("com.android.tools.build:gradle")
+//////        classpath("com.facebook.react:react-native-gradle-plugin")
+//////        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin")
+//////    }
+//////}
+//////
+//////allprojects {
+//////    repositories {
+//////        google()
+//////        mavenCentral()
+//////    }
+//////}
+//////
+//////apply plugin: "com.android.application"
+//////apply plugin: "com.facebook.react"
+////
+////buildscript {
+////    ext {
+////        buildToolsVersion = "34.0.0"
+////        minSdkVersion = 23
+////        compileSdkVersion = 34
+////        targetSdkVersion = 34
+////        ndkVersion = "26.1.10909125"
+////        kotlinVersion = "1.9.22"
+////    }
+////    repositories {
+////        google()
+////        mavenCentral()
+////    }
+////    dependencies {
+////        classpath("com.android.tools.build:gradle:7.0.4")
+////        classpath("com.facebook.react:react-native-gradle-plugin:0.71.0")
+////        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.9.22")
+////    }
+////}
+////
+////allprojects {
+////    repositories {
+////        google()
+////        mavenCentral()
+////        maven {
+////            url 'https://api.mapbox.com/downloads/v2/releases/maven'
+////            authentication {
+////                basic(BasicAuthentication)
+////            }
+////            credentials {
+////                credentials.username = 'mapbox'
+////                credentials.password = 'sk.eyJ1Ijoic2FuZHlzYW1pYWppIiwiYSI6ImNseDA4Z3lvdjA2NjEyanM3ZGlmNTl4MnEifQ.b2sccuZUuybmcAyuIB7qdg'
+////            }
+////        }
+////    }
+////}
+////
+////apply plugin: "com.facebook.react.rootproject"
+////
+////buildscript {
+////    ext {
+////        buildToolsVersion = "34.0.0"
+////        minSdkVersion = 23
+////        compileSdkVersion = 34
+////        targetSdkVersion = 34
+////        ndkVersion = "26.1.10909125"
+////        kotlinVersion = "1.9.22"
+////    }
+////    repositories {
+////        google()
+////        mavenCentral()
+////    }
+////    dependencies {
+////        classpath("com.android.tools.build:gradle:7.0.4")
+////        classpath("com.facebook.react:react-native-gradle-plugin:0.71.0")
+////        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.9.22")
+////    }
+////}
+////
+////allprojects {
+////    repositories {
+////        // ...
+////        maven {
+////            url 'https://api.mapbox.com/downloads/v2/releases/maven'
+////            authentication {
+////                basic(BasicAuthentication)
+////            }
+////            credentials {
+////                username = 'mapbox'
+////                password = 'sk.eyJ1IjoidmR5YW5oIiwiYSI6ImNseDBibXUzZzBld2oycXNmNG1wN2txb2sifQ.IPVvVMOPazkFVY0y90BMJw'
+////            }
+////            }
+////       }
+////}
+////
+////apply plugin: "com.facebook.react.rootproject"
+//
+
+buildscript {
+    ext {
+        buildToolsVersion = "34.0.0"
+        minSdkVersion = 23
+        compileSdkVersion = 34
+        targetSdkVersion = 34
+        ndkVersion = "26.1.10909125"
+        kotlinVersion = "1.9.22"
+    }
+    repositories {
+        google()
+        mavenCentral()
+        maven {
+            url 'https://api.mapbox.com/downloads/v2/releases/maven'
+            authentication {
+                basic(BasicAuthentication)
+            }
+            credentials {
+                username = 'mapbox'
+                password = 'sk.eyJ1IjoidmR5YW5oIiwiYSI6ImNseDBibXUzZzBld2oycXNmNG1wN2txb2sifQ.IPVvVMOPazkFVY0y90BMJw'
+            }
+        }
+    }
+    dependencies {
+        classpath("com.android.tools.build:gradle:7.0.4")
+        classpath("com.facebook.react:react-native-gradle-plugin:0.71.0")
+        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.9.22")
+    }
+}
+//
+//allprojects {
+//    repositories {
+//        google()
+//        mavenCentral()
+//        maven {
+//            url 'https://api.mapbox.com/downloads/v2/releases/maven'
+//            authentication {
+//                basic(BasicAuthentication)
+//            }
+//            credentials {
+//                username = 'mapbox'
+//                password = 'sk.eyJ1IjoidmR5YW5oIiwiYSI6ImNseDBibXUzZzBld2oycXNmNG1wN2txb2sifQ.IPVvVMOPazkFVY0y90BMJw'
+//            }
+//        }
+//    }
+//}
+
+apply plugin: "com.facebook.react.rootproject"
