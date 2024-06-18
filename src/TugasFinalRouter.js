@@ -8,7 +8,7 @@ import SettingScreen from './screens/TugasFinal/ScreensWishlist';
 import Home from './screens/TugasFinal/HomeWishlist/';
 import Detail from './screens/TugasFinal/HomeWishlist/WishlistItem';
 import {WishlistProvider} from './screens/TugasFinal/ProviderTugas';
-import { AntDesign } from '@expo/vector-icons';
+import {AntDesign} from '@expo/vector-icons';
 
 const Tab = createBottomTabNavigator();
 const Stack = createNativeStackNavigator();
@@ -60,7 +60,12 @@ const TugasFinalRouter = () => {
             options={{
               headerShown: false,
               tabBarIcon: ({color, focused}) => (
-                <AntIcon name="book" size={24} color="black" size={focused ? 24 : 20} />
+                <AntIcon
+                  name="book"
+                  size={24}
+                  color="black"
+                  size={focused ? 24 : 20}
+                />
               ),
             }}
           />

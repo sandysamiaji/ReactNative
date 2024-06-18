@@ -1,9 +1,9 @@
 import React from 'react';
-import { View, StyleSheet } from 'react-native';
-import { Card, Text } from '@rneui/base';
+import {View, StyleSheet} from 'react-native';
+import {Card, Text} from '@rneui/base';
 
-const DetailItemScreen = ({ route }) => {
-  const { item } = route.params;
+const DetailItemScreen = ({route}) => {
+  const {item} = route.params;
 
   return (
     <View style={styles.container}>
@@ -29,25 +29,25 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     padding: 10,
   },
- container: {
-      padding: 10,
-    },
-    card: {
-      marginBottom: 20,
-    },
-    title: {
-      fontSize: 18,
-      fontWeight: 'bold',
-    },
-    poster: {
-      width: '100%',
-      height: 200,
-      marginBottom: 10,
-    },
-    year: {
-      fontSize: 14,
-      color: '#666',
-    },
+  container: {
+    padding: 10,
+  },
+  card: {
+    marginBottom: 20,
+  },
+  title: {
+    fontSize: 18,
+    fontWeight: 'bold',
+  },
+  poster: {
+    width: '100%',
+    height: 200,
+    marginBottom: 10,
+  },
+  year: {
+    fontSize: 14,
+    color: '#666',
+  },
   description: {
     fontSize: 14,
     color: '#333',
